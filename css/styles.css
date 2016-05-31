@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "droid serif", serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: "droid sans", sans-serif;
+  margin-top: 1em;
+}
+
+h2 {
+font-family: 'Nothing You Could Do', cursive;
+color: rgb(105, 120, 34);
+font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: .05em;
+}
+
+ul {
+  background-color: rgb(234, 247, 148);
+  margin: 0;
+  padding: 0;
+}
+
+.navi {
+  font-family: 'Nothing You Could Do', cursive;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgb(29, 67, 181);
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.5%;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  ul { line-height: 4em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.navi {
+  float: left;
+  width: 33.3333%;
+  height: 4em;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+}
+
+.hover {
+  background-color: rgb(90, 127, 237);
+}
+
+a { color: rgb(234, 247, 148);
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.75em;
+  text-decoration: none;
+}
+
+.shy {
+color: rgb(29, 67, 181);
+display: inline;
+}
+
+.summary {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 0;
+}
+
+.about {
+  width: 94%;
+  margin-top: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.bio {
+  width: 90%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.container {
+  background-color: rgba(234, 247, 148, 0.5);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.teach {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px)
+
+{
+  .container {
+    overflow: hidden;
+  }
+
+  .summary {
+    width: 45%;
+    margin: 0;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    display: inline-block;
+  }
+
+.teach {
+  width: 50%;
+  padding: 0;
+  float: left;
+}
+
+  .about{
+    width: 40%;
+    padding: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0;
+    border: 0;
+    float: left;
+  }
+
+.bio {
+  margin-top: 0;
+  width: 40%;
+  padding: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 0;
+  float: right;
+}
+
+}
